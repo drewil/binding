@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1 {
+  font-family: bebas neue;
+  font-style: normal;
+	font-size: 1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: great vibes;
+  font-style: normal;
+	font-size: 4em;
+  line-height: 1em;
+  text-align: center;
+}
+
+h3 {
+  font-family: bebas neue;
+  font-style: normal;
+	font-size: 1.5em;
+  text-align: center;
+}
+
+.pullquote {
+  font-family: bebas neue;
+  font-size: 3em;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer {
+  font-family: great vibes;
+	font-size: calc(var(--base-font-size) * 1);
+  line-height: normal;
+	color: #ffffff;
+	text-align: left;
+}

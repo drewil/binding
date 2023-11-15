@@ -39,26 +39,41 @@
 }
 
 .f {
+	float: left;
+	padding-top: 0em;
+	padding-left: 0em;
 	font-family: zen dots;
-	font-size: 3em;
+	font-size:20em;
 	color: #000000;
 }
 
 .u {
+	float: right;
+	padding-top: 0em;
+	padding-left: 0em;
+
 	font-family: great vibes;
-	font-size: 3em;
+	font-size: 10em;
 	color: #000000;
 }
 
 .c {
+	float: left;
+	padding-top: 0em;
+	padding-left: 0em;
+
 	font-family: black ops one;
-	font-size: 3em;
+	font-size: 25em;
 	color: #000000;
 }
 
 .k {
+	float: left;
+	padding-top: 0em;
+	padding-right: 0em;
+
 	font-family: stint ultra condensed;
-	font-size: 3em;
+	font-size: 10em;
 	color: #000000;
 }
 
@@ -76,7 +91,7 @@
 }
 
 .questions {
-	margin: 6em 3em 0em 3em;
+	margin: 10em 3em 0em 3em;
 	width: 75%;
 	padding: 3em 1em;
 	text-align: center;

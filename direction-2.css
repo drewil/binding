@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+
+h1 {
+  font-family: stint ultra expanded;
+  font-style: normal;
+	font-size: 0.5em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: stint ultra condensed;
+  font-style: normal;
+	font-size: 2em;
+  text-align: left;
+}
+
+h3 {
+  font-family: stint ultra expanded;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 2em;
+  text-align: left;
+}
+
+.pullquote {
+  font-family: stint ultra condensed;
+  font-size: 3em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+footer {
+  font-family: stint ultra expanded;
+	font-weight: 300;
+  font-style: normal;
+	font-size: calc(var(--base-font-size) * 1);
+  line-height: normal;
+	color: #ffffff;
+	text-align: left;
+}
