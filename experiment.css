@@ -1,0 +1,25 @@
+:root {
+	--base: 1em;
+}
+
+section {
+	background-color: gold;
+	padding: calc(var(--base) / 2);
+}
+
+h2 { font-size: calc(var(--base) * 3); }
+h2 { font-size: calc(var(--base) * 1); }
+
+section:not(:first-child) { height: calc(var(--base) * 7); }
+
+section:nth-child(2) {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+section:nth-child(3) {
+	display: flex;
+	gap: var(--base);
+	overflow-x: auto;
+	overflow-y: hidden;
+}

@@ -6,50 +6,50 @@
 }
 
 .information {
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  padding: 1em;
-  gap: 1em;
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+	padding: 1em;
+	gap: 1em;
 }
 
 h2 {
-  padding: 0.5em;
+	padding: 0.5em;
 }
 
 h3 {
-  padding: 0.5em;
+	padding: 0.5em;
 }
 
 .question {
-  padding: 1em;
+	padding: 1em;
 }
 
 .container {
-  padding: 1em;
+	padding: 1em;
 }
 
 p {
-  width: 75%;
-  margin: auto;
+	width: 75%;
+	margin: auto;
 
 	font-family: 'Montserrat';
 	font-weight: 300;
-  font-style: normal;
+	font-style: normal;
 	font-size: calc(var(--base-font-size) * 1);
-  line-height: normal;
+	line-height: normal;
 	color: #000000;
 }
 
 .pullquote {
-  padding: 1em;
+	padding: 1em;
 }
 
 body {
-  padding-bottom: 1em;
+	padding-bottom: 1em;
 }
 
 footer {
-  background-color: black;
-  padding: 1em;
+	background-color: black;
+	padding: 1em;
 }
