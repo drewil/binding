@@ -1,0 +1,9 @@
+
+
+@media screen and (min-width:360px) {
+	:root { --base: 1em; }
+}
+
+@media screen and (min-width:720px) {
+	:root { --base: 1.25em; }
+}
