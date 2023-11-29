@@ -147,12 +147,11 @@
 	}
 
 	.button-container {
-		height: 100%;
 
 		flex-direction: row;
 	}
 
-	button {
+	a {
 		opacity: 0.5;
 	}
 	
