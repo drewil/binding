@@ -1,11 +1,68 @@
+@font-face { font-family: Boska-Normal; src:url(Boska-Variable.ttf); }
+@font-face { font-family: Boska-Italic; src:url(Boska-VariableItalic.ttf); }
+@font-face { font-family: Pencerio; src:url(Pencerio-Hairline.ttf); }
+@font-face { font-family: Boxing; src:url(Boxing-Regular.otf); }
 @font-face { font-family: Neue-Condensed; src:url(PPNeueWorld-SuperCondensedLight.otf); }
 @font-face { font-family: Momentum-Black; src:url(PPMonumentExtended-Black.otf); }
 @font-face { font-family: Momentum-Regular; src:url(PPMonumentExtended-Regular.otf); }
 @font-face { font-family: Work-Sans; src:url(WorkSans-VariableFont_wght.ttf); }
+@font-face { font-family: Editorial-Italic; src:url(PPEditorialOld-Italic.otf); }
 
 :root {
 	background: #000000;
 	--base: 1em;
+}
+
+.hgroup {
+	top: 0;
+}
+
+.button-container {
+	position: fixed;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 4;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+button {
+	background-color: #000000;
+	border: 1px solid #ffffff;
+	border-radius: 100%;
+	padding: 1em 1.5em;
+
+	font-family: boxing;
+	font-size: calc(var(--base) * 1.25);
+	letter-spacing: calc(var(--base) / 12);
+	color: #ffffff;
+	text-transform: lowercase;
+	text-align: center;
+
+	transition: all 0.3s ease-in-out;
+}
+
+.button-container button:hover {
+	background-color: #6a6a6a;
+}
+
+.button-container button:active {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.text-container {
+  top: 0;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding: var(--base);
 }
 
 h1 {
@@ -14,27 +71,19 @@ h1 {
 	line-height: normal;
 	color: #ff0000;
 	text-transform: uppercase;
-}
 
-.text-container h1:nth-child(1) {
-	position: fixed;
-	top: 0;
-	left: 0;
-	margin-top: 1em;
-	margin-left: 1em;
-	z-index: 10;
-}
-
-.text-container p:nth-child(2) {
-	position: fixed;
-	top: 50%;
-	left: 0;
-	margin-left: 1em;
-	z-index: 10;
+	/* margin-block-start: 0em;
+  margin-block-end: 0em;
+	margin-inline-start: 0px;
+  margin-inline-end: 0px; */
 }
 
 footer {
 	text-align: center;
+}
+
+.header-container {
+	padding: var(--base);
 }
 
 h2 {
@@ -45,6 +94,7 @@ h2 {
 	font-size: calc(var(--base) * 13.25);
 	line-height: calc(var(--base) / 1.25);
 	text-transform: uppercase;
+	overflow: visible;
 }
 
 h3 {
@@ -70,17 +120,26 @@ h4 {
 	padding: var(--base);
 }
 
+h5 {
+	font-family: editorial-italic;
+	font-size: calc(var(--base) * 4);
+	color: #ff0000;
+	text-align: left;
+}
+
 p {
 	font-family: work-sans;
 	font-weight: 300;
 	font-size: 1.15em;
-	color: #000000;
+	color: #ffffff;
 	line-height: calc(var(--base) * 1.25);
 	text-align: left;
+	max-width: 80%;
 }
 
-li {
+.question-container {
   background-color: #ffffff;
+	padding: calc(var(--base) / 2);
   border-radius: calc(var(--base) / 2);
 }
 
