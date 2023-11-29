@@ -1,9 +1,9 @@
 @font-face { font-family: Boska-Normal; src:url(Boska-Variable.ttf); }
 @font-face { font-family: Boska-Italic; src:url(Boska-VariableItalic.ttf); }
 @font-face { font-family: Pencerio; src:url(Pencerio-Hairline.ttf); }
+@font-face { font-family: Mondwest; src:url(PPMondwest-Regular.otf); }
 @font-face { font-family: Boxing; src:url(Boxing-Regular.otf); }
 @font-face { font-family: Momentum; src:url(PPMonumentExtended-Regular.otf); }
-@font-face { font-family: Mondwest; src:url(PPMondwest-Regular.otf); }
 
 :root {
 	background: #000000;
@@ -68,8 +68,6 @@ a {
 }
 
 button {
-	display: inline-block;
-
 	font-family: boxing;
 	font-size: calc(var(--base) * 1.25);
 	line-height: calc(var(--base) * 1);
