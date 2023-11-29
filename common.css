@@ -12,7 +12,7 @@
 h1 {
 	/* font-size: calc(var(--base) * 13.25); */
 	color: transparent;
-	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: white;
 	text-transform: uppercase;
 }
@@ -78,13 +78,13 @@ button {
 	margin: 0%;
 }
 
-button :nth-child(1) {
+/* button:nth-child(1) {
 	background-color: #ff0000;
-}
+} */
 
-button :nth-child(2), button :nth-child(3), button :nth-child(4) {
+/* button:nth-child(2), button :nth-child(3), button :nth-child(4) {
 	background-color: #000000;
-}
+} */
 
 .button-container a:hover {
 	background-color: #ff7d7d;
