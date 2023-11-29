@@ -29,11 +29,13 @@ h4 {
 	line-height: calc(var(--base) * 1);
 	color: #ff0000;
 	text-transform: uppercase;
+	text-align: left;
 }
 
 h5 {
 	font-family: Neue-Condensed;
-	font-size: 20em;
+	font-size: calc(var(--base) * 30);
+	letter-spacing: -0.025em;
 	color: #000000;
 	-webkit-text-stroke-width: 0.5px;
 	-webkit-text-stroke-color: white;
@@ -83,12 +85,11 @@ button {
 }
 
 .topic-container {
+	position: relative;
 	overflow-x: auto;
 	overflow-y: hidden;
 
 	text-align: left;
-
-	z-index: 3;
 }
 
 .header-container {
@@ -97,6 +98,12 @@ button {
 	flex-direction: row;
 	justify-content: space-between;	;
 	padding: var(--base);
+
+	position: absolute; /* Absolute positioning for top and middle alignment */
+  top: 20%; /* Align top edge to the middle of the parent */
+  left: 50%; /* Align left edge to the middle of the parent */
+  transform: translate(-50%, -50%); /* Transform to center the element */
+  width: 100%; /* Take up the full width of the parent */
 }
 
 .header-container :nth-child(1) {
